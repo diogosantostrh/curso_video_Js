@@ -1,0 +1,9 @@
+function parimpar(n) {
+    if (n%2 ==0) {
+        return 'par'        
+    }else{
+        return 'imar'
+    }
+}
+let res= parimpar(225)
+console.log(res)
